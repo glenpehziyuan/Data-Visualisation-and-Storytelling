@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='data (data)' inline='true' name='federated.0g8df5w131c6pm18kk1h712okab8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='excel-direct.11wx4iu1wz81jw1h0ij9k0m1qo8a'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/glenpehziyuan/Desktop/Y1S2/BT2102/Assignment 2/data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.11wx4iu1wz81jw1h0ij9k0m1qo8a' name='data' table='[data$]' type='table'>
+          <columns gridOrigin='A1:BT5192:no:A1:BT5192:0' header='yes' outcome='2'>
+            <column datatype='string' name='Zone' ordinal='0' />
+            <column datatype='integer' name='Measurement.Att.Date' ordinal='1' />
+            <column datatype='string' name='Gender.Full.Text' ordinal='2' />
+            <column datatype='string' name='Race.Full.Text' ordinal='3' />
+            <column datatype='string' name='StaffEducation' ordinal='4' />
+            <column datatype='real' name='M_Weight' ordinal='5' />
+            <column datatype='real' name='M_Height' ordinal='6' />
+            <column datatype='real' name='M_Waist' ordinal='7' />
+            <column datatype='integer' name='M_Systolic_1st' ordinal='8' />
+            <column datatype='integer' name='M_Diastolic_1st' ordinal='9' />
+            <column datatype='real' name='L_Chol_f' ordinal='10' />
+            <column datatype='real' name='L_Trig_f' ordinal='11' />
+            <column datatype='real' name='L_HDL_f' ordinal='12' />
+            <column datatype='real' name='L_LDL_f' ordinal='13' />
+            <column datatype='real' name='L_Glucose_f' ordinal='14' />
+            <column datatype='real' name='f_BMI' ordinal='15' />
+            <column datatype='string' name='X8Q_MH_HeartAttack' ordinal='16' />
+            <column datatype='string' name='X8Q_MH_Stroke' ordinal='17' />
+            <column datatype='string' name='X8Q_MH_Diabetes' ordinal='18' />
+            <column datatype='string' name='X8Q_MH_HBP' ordinal='19' />
+            <column datatype='string' name='X8Q_MH_HBldChol' ordinal='20' />
+            <column datatype='string' name='X8Q_MH_DiabetesTrt' ordinal='21' />
+            <column datatype='string' name='X8Q_MH_HBldCholTrt' ordinal='22' />
+            <column datatype='string' name='X8Q_FH_DadBroCHD' ordinal='23' />
+            <column datatype='string' name='X8Q_FH_MomSisCHD' ordinal='24' />
+            <column datatype='string' name='X8Q_LS_Smoking' ordinal='25' />
+            <column datatype='string' name='X8Q_LS_Exercise' ordinal='26' />
+            <column datatype='string' name='X8Q_LS_Stress' ordinal='27' />
+            <column datatype='string' name='X8Q_GN_Health' ordinal='28' />
+            <column datatype='string' name='X8Q_LS_FruitsVeg' ordinal='29' />
+            <column datatype='string' name='X8Q_MH_DiabetesFoot' ordinal='30' />
+            <column datatype='string' name='X8Q_Living' ordinal='31' />
+            <column datatype='string' name='PreferredLanguage' ordinal='32' />
+            <column datatype='string' name='OccupationType' ordinal='33' />
+            <column datatype='string' name='Healthy' ordinal='34' />
+            <column datatype='string' name='Habits' ordinal='35' />
+            <column datatype='string' name='Diabetes' ordinal='36' />
+            <column datatype='string' name='BloodPressure' ordinal='37' />
+            <column datatype='string' name='Cholesterol' ordinal='38' />
+            <column datatype='string' name='Combine' ordinal='39' />
+            <column datatype='string' name='Overweight' ordinal='40' />
+            <column datatype='string' name='New' ordinal='41' />
+            <column datatype='string' name='UnhealthyCat' ordinal='42' />
+            <column datatype='string' name='Control' ordinal='43' />
+            <column datatype='string' name='ControlGrp' ordinal='44' />
+            <column datatype='string' name='existNewGrp' ordinal='45' />
+            <column datatype='string' name='controlTree' ordinal='46' />
+            <column datatype='string' name='AgeGrp' ordinal='47' />
+            <column datatype='string' name='BMIGrp' ordinal='48' />
+            <column datatype='string' name='Fasting' ordinal='49' />
+            <column datatype='string' name='SugarHigh' ordinal='50' />
+            <column datatype='string' name='BPHigh' ordinal='51' />
+            <column datatype='string' name='HealthState' ordinal='52' />
+            <column datatype='string' name='medicalHistCholSugBp' ordinal='53' />
+            <column datatype='string' name='screening' ordinal='54' />
+            <column datatype='string' name='action' ordinal='55' />
+            <column datatype='string' name='scnZone' ordinal='56' />
+            <column datatype='string' name='NurseAction' ordinal='57' />
+            <column datatype='string' name='DrOutcome' ordinal='58' />
+            <column datatype='boolean' name='revisit' ordinal='59' />
+            <column datatype='string' name='DHLDescNHGP' ordinal='60' />
+            <column datatype='string' name='FollowUpPolyClinic' ordinal='61' />
+            <column datatype='string' name='DiagnosisAtPoly' ordinal='62' />
+            <column datatype='string' name='DateOfPolyVisit' ordinal='63' />
+            <column datatype='string' name='FollowupType' ordinal='64' />
+            <column datatype='string' name='VisitsNHGP' ordinal='65' />
+            <column datatype='real' name='X10YrRisk' ordinal='66' />
+            <column datatype='integer' name='fScoreType' ordinal='67' />
+            <column datatype='integer' name='fScore' ordinal='68' />
+            <column datatype='string' name='fScoreCat' ordinal='69' />
+            <column datatype='string' name='healthRisk' ordinal='70' />
+            <column datatype='integer' name='NRIC' ordinal='71' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.11wx4iu1wz81jw1h0ij9k0m1qo8a' name='data' table='[data$]' type='table'>
+          <columns gridOrigin='A1:BT5192:no:A1:BT5192:0' header='yes' outcome='2'>
+            <column datatype='string' name='Zone' ordinal='0' />
+            <column datatype='integer' name='Measurement.Att.Date' ordinal='1' />
+            <column datatype='string' name='Gender.Full.Text' ordinal='2' />
+            <column datatype='string' name='Race.Full.Text' ordinal='3' />
+            <column datatype='string' name='StaffEducation' ordinal='4' />
+            <column datatype='real' name='M_Weight' ordinal='5' />
+            <column datatype='real' name='M_Height' ordinal='6' />
+            <column datatype='real' name='M_Waist' ordinal='7' />
+            <column datatype='integer' name='M_Systolic_1st' ordinal='8' />
+            <column datatype='integer' name='M_Diastolic_1st' ordinal='9' />
+            <column datatype='real' name='L_Chol_f' ordinal='10' />
+            <column datatype='real' name='L_Trig_f' ordinal='11' />
+            <column datatype='real' name='L_HDL_f' ordinal='12' />
+            <column datatype='real' name='L_LDL_f' ordinal='13' />
+            <column datatype='real' name='L_Glucose_f' ordinal='14' />
+            <column datatype='real' name='f_BMI' ordinal='15' />
+            <column datatype='string' name='X8Q_MH_HeartAttack' ordinal='16' />
+            <column datatype='string' name='X8Q_MH_Stroke' ordinal='17' />
+            <column datatype='string' name='X8Q_MH_Diabetes' ordinal='18' />
+            <column datatype='string' name='X8Q_MH_HBP' ordinal='19' />
+            <column datatype='string' name='X8Q_MH_HBldChol' ordinal='20' />
+            <column datatype='string' name='X8Q_MH_DiabetesTrt' ordinal='21' />
+            <column datatype='string' name='X8Q_MH_HBldCholTrt' ordinal='22' />
+            <column datatype='string' name='X8Q_FH_DadBroCHD' ordinal='23' />
+            <column datatype='string' name='X8Q_FH_MomSisCHD' ordinal='24' />
+            <column datatype='string' name='X8Q_LS_Smoking' ordinal='25' />
+            <column datatype='string' name='X8Q_LS_Exercise' ordinal='26' />
+            <column datatype='string' name='X8Q_LS_Stress' ordinal='27' />
+            <column datatype='string' name='X8Q_GN_Health' ordinal='28' />
+            <column datatype='string' name='X8Q_LS_FruitsVeg' ordinal='29' />
+            <column datatype='string' name='X8Q_MH_DiabetesFoot' ordinal='30' />
+            <column datatype='string' name='X8Q_Living' ordinal='31' />
+            <column datatype='string' name='PreferredLanguage' ordinal='32' />
+            <column datatype='string' name='OccupationType' ordinal='33' />
+            <column datatype='string' name='Healthy' ordinal='34' />
+            <column datatype='string' name='Habits' ordinal='35' />
+            <column datatype='string' name='Diabetes' ordinal='36' />
+            <column datatype='string' name='BloodPressure' ordinal='37' />
+            <column datatype='string' name='Cholesterol' ordinal='38' />
+            <column datatype='string' name='Combine' ordinal='39' />
+            <column datatype='string' name='Overweight' ordinal='40' />
+            <column datatype='string' name='New' ordinal='41' />
+            <column datatype='string' name='UnhealthyCat' ordinal='42' />
+            <column datatype='string' name='Control' ordinal='43' />
+            <column datatype='string' name='ControlGrp' ordinal='44' />
+            <column datatype='string' name='existNewGrp' ordinal='45' />
+            <column datatype='string' name='controlTree' ordinal='46' />
+            <column datatype='string' name='AgeGrp' ordinal='47' />
+            <column datatype='string' name='BMIGrp' ordinal='48' />
+            <column datatype='string' name='Fasting' ordinal='49' />
+            <column datatype='string' name='SugarHigh' ordinal='50' />
+            <column datatype='string' name='BPHigh' ordinal='51' />
+            <column datatype='string' name='HealthState' ordinal='52' />
+            <column datatype='string' name='medicalHistCholSugBp' ordinal='53' />
+            <column datatype='string' name='screening' ordinal='54' />
+            <column datatype='string' name='action' ordinal='55' />
+            <column datatype='string' name='scnZone' ordinal='56' />
+            <column datatype='string' name='NurseAction' ordinal='57' />
+            <column datatype='string' name='DrOutcome' ordinal='58' />
+            <column datatype='boolean' name='revisit' ordinal='59' />
+            <column datatype='string' name='DHLDescNHGP' ordinal='60' />
+            <column datatype='string' name='FollowUpPolyClinic' ordinal='61' />
+            <column datatype='string' name='DiagnosisAtPoly' ordinal='62' />
+            <column datatype='string' name='DateOfPolyVisit' ordinal='63' />
+            <column datatype='string' name='FollowupType' ordinal='64' />
+            <column datatype='string' name='VisitsNHGP' ordinal='65' />
+            <column datatype='real' name='X10YrRisk' ordinal='66' />
+            <column datatype='integer' name='fScoreType' ordinal='67' />
+            <column datatype='integer' name='fScore' ordinal='68' />
+            <column datatype='string' name='fScoreCat' ordinal='69' />
+            <column datatype='string' name='healthRisk' ordinal='70' />
+            <column datatype='integer' name='NRIC' ordinal='71' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BT5192:no:A1:BT5192:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Zone]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Zone</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measurement.Att.Date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measurement.Att.Date]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Measurement.Att.Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender.Full.Text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender.Full.Text]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Gender.Full.Text</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race.Full.Text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Race.Full.Text]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Race.Full.Text</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StaffEducation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[StaffEducation]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>StaffEducation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Weight]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>M_Weight</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Height]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>M_Height</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Waist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Waist]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>M_Waist</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Systolic_1st</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[M_Systolic_1st]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>M_Systolic_1st</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Diastolic_1st</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[M_Diastolic_1st]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>M_Diastolic_1st</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L_Chol_f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[L_Chol_f]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>L_Chol_f</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L_Trig_f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[L_Trig_f]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>L_Trig_f</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L_HDL_f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[L_HDL_f]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>L_HDL_f</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L_LDL_f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[L_LDL_f]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>L_LDL_f</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>L_Glucose_f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[L_Glucose_f]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>L_Glucose_f</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>f_BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[f_BMI]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>f_BMI</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_HeartAttack</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_HeartAttack]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_HeartAttack</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_Stroke</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_Stroke]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_Stroke</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_Diabetes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_Diabetes]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_Diabetes</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_HBP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_HBP]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_HBP</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_HBldChol</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_HBldChol]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_HBldChol</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_DiabetesTrt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_DiabetesTrt]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_DiabetesTrt</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_HBldCholTrt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_HBldCholTrt]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_HBldCholTrt</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_FH_DadBroCHD</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_FH_DadBroCHD]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_FH_DadBroCHD</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_FH_MomSisCHD</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_FH_MomSisCHD]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_FH_MomSisCHD</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_LS_Smoking</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_LS_Smoking]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_LS_Smoking</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_LS_Exercise</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_LS_Exercise]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_LS_Exercise</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_LS_Stress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_LS_Stress]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_LS_Stress</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_GN_Health</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_GN_Health]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_GN_Health</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_LS_FruitsVeg</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_LS_FruitsVeg]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_LS_FruitsVeg</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_MH_DiabetesFoot</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_MH_DiabetesFoot]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_MH_DiabetesFoot</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X8Q_Living</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[X8Q_Living]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X8Q_Living</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PreferredLanguage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PreferredLanguage]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>PreferredLanguage</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OccupationType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OccupationType]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>OccupationType</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Healthy]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Healthy</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Habits</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Habits]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Habits</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Diabetes]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Diabetes</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BloodPressure</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BloodPressure]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>BloodPressure</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cholesterol]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Cholesterol</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Combine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Combine]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Combine</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overweight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Overweight]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Overweight</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[New]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>New</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UnhealthyCat</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[UnhealthyCat]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>UnhealthyCat</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Control</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Control]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Control</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ControlGrp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ControlGrp]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>ControlGrp</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>existNewGrp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[existNewGrp]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>existNewGrp</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>controlTree</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[controlTree]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>controlTree</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AgeGrp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AgeGrp]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>AgeGrp</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMIGrp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BMIGrp]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>BMIGrp</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fasting</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fasting]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>Fasting</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SugarHigh</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SugarHigh]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>SugarHigh</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BPHigh</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BPHigh]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>BPHigh</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HealthState</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HealthState]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>HealthState</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medicalHistCholSugBp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[medicalHistCholSugBp]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>medicalHistCholSugBp</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>screening</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[screening]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>screening</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>action</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[action]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>action</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scnZone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[scnZone]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>scnZone</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NurseAction</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NurseAction]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>NurseAction</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DrOutcome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DrOutcome]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>DrOutcome</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revisit</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[revisit]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>revisit</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DHLDescNHGP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DHLDescNHGP]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>DHLDescNHGP</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FollowUpPolyClinic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FollowUpPolyClinic]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>FollowUpPolyClinic</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiagnosisAtPoly</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DiagnosisAtPoly]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>DiagnosisAtPoly</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateOfPolyVisit</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DateOfPolyVisit]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>DateOfPolyVisit</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FollowupType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FollowupType]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>FollowupType</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VisitsNHGP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[VisitsNHGP]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>VisitsNHGP</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X10YrRisk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[X10YrRisk]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>X10YrRisk</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fScoreType</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fScoreType]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>fScoreType</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fScore]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>fScore</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fScoreCat</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fScoreCat]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>fScoreCat</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>healthRisk</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[healthRisk]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>healthRisk</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RSG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NRIC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NRIC]</local-name>
+            <parent-name>[data]</parent-name>
+            <remote-alias>NRIC</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_707929A5DDEB4B7787D6CE6D375F69F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Grp' datatype='string' name='[AgeGrp]' role='dimension' type='nominal' />
+      <column caption='BMI Grp' datatype='string' name='[BMIGrp]' role='dimension' type='nominal' />
+      <column caption='BP High' datatype='string' name='[BPHigh]' role='dimension' type='nominal' />
+      <column caption='Blood Pressure' datatype='string' name='[BloodPressure]' role='dimension' type='nominal' />
+      <column caption='Control Grp' datatype='string' name='[ControlGrp]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Control]' role='dimension' type='nominal' />
+      <column caption='DHL Desc NHGP' datatype='string' name='[DHLDescNHGP]' role='dimension' type='nominal' />
+      <column caption='Date Of Poly Visit' datatype='string' name='[DateOfPolyVisit]' role='dimension' type='nominal' />
+      <column caption='Diagnosis At Poly' datatype='string' name='[DiagnosisAtPoly]' role='dimension' type='nominal' />
+      <column caption='Dr Outcome' datatype='string' name='[DrOutcome]' role='dimension' type='nominal' />
+      <column caption='Follow Up Poly Clinic' datatype='string' name='[FollowUpPolyClinic]' role='dimension' type='nominal' />
+      <column caption='Followup Type' datatype='string' name='[FollowupType]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Habits]' role='dimension' type='nominal' />
+      <column caption='Health State' datatype='string' name='[HealthState]' role='dimension' type='nominal' />
+      <column caption='L Chol f' datatype='real' name='[L_Chol_f]' role='measure' type='quantitative' />
+      <column caption='L Glucose f' datatype='real' name='[L_Glucose_f]' role='measure' type='quantitative' />
+      <column caption='L HDL f' datatype='real' name='[L_HDL_f]' role='measure' type='quantitative' />
+      <column caption='L LDL f' datatype='real' name='[L_LDL_f]' role='measure' type='quantitative' />
+      <column caption='L Trig f' datatype='real' name='[L_Trig_f]' role='measure' type='quantitative' />
+      <column caption='M Diastolic 1st' datatype='integer' name='[M_Diastolic_1st]' role='measure' type='quantitative' />
+      <column caption='M Height' datatype='real' name='[M_Height]' role='measure' type='quantitative' />
+      <column caption='M Systolic 1st' datatype='integer' name='[M_Systolic_1st]' role='measure' type='quantitative' />
+      <column caption='M Waist' datatype='real' name='[M_Waist]' role='measure' type='quantitative' />
+      <column caption='M Weight' datatype='real' name='[M_Weight]' role='measure' type='quantitative' />
+      <column caption='Nric' datatype='integer' name='[NRIC]' role='measure' type='quantitative' />
+      <column caption='Nurse Action' datatype='string' name='[NurseAction]' role='dimension' type='nominal' />
+      <column caption='Occupation Type' datatype='string' name='[OccupationType]' role='dimension' type='nominal' />
+      <column caption='Preferred Language' datatype='string' name='[PreferredLanguage]' role='dimension' type='nominal' />
+      <column caption='Staff Education' datatype='string' name='[StaffEducation]' role='dimension' type='nominal' />
+      <column caption='Sugar High' datatype='string' name='[SugarHigh]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Unhealthy Cat (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[UnhealthyCat]' new-bin='true'>
+          <bin default-name='true' value='&quot;Unhealthy, Exisiting HighBP, Unhealthy, Exisiting HighBP &amp; HighSugar, Unhealthy, Exisiting HighCho and 4 more&quot;'>
+            <value>&quot;Unhealthy, Exisiting HighBP&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighBP &amp; HighSugar&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighCho&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighCho &amp; HighBP&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighCho &amp; HighSugar&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighCho, HighBP &amp; HighSugar&quot;</value>
+            <value>&quot;Unhealthy, Exisiting HighSugar&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Unhealthy Cat' datatype='string' name='[UnhealthyCat]' role='dimension' type='nominal' />
+      <column caption='Visits NHGP' datatype='string' name='[VisitsNHGP]' role='dimension' type='nominal' />
+      <column caption='X8Q FH DadBroCHD' datatype='string' name='[X8Q_FH_DadBroCHD]' role='dimension' type='nominal' />
+      <column caption='X8Q FH MomSisCHD' datatype='string' name='[X8Q_FH_MomSisCHD]' role='dimension' type='nominal' />
+      <column caption='X8Q GN Health' datatype='string' name='[X8Q_GN_Health]' role='dimension' type='nominal' />
+      <column caption='X8Q LS Exercise' datatype='string' name='[X8Q_LS_Exercise]' role='dimension' type='nominal' />
+      <column caption='X8Q LS FruitsVeg' datatype='string' name='[X8Q_LS_FruitsVeg]' role='dimension' type='nominal' />
+      <column caption='X8Q LS Smoking' datatype='string' name='[X8Q_LS_Smoking]' role='dimension' type='nominal' />
+      <column caption='X8Q LS Stress' datatype='string' name='[X8Q_LS_Stress]' role='dimension' type='nominal' />
+      <column caption='X8Q Living' datatype='string' name='[X8Q_Living]' role='dimension' type='nominal' />
+      <column caption='X8Q MH DiabetesFoot' datatype='string' name='[X8Q_MH_DiabetesFoot]' role='dimension' type='nominal' />
+      <column caption='X8Q MH DiabetesTrt' datatype='string' name='[X8Q_MH_DiabetesTrt]' role='dimension' type='nominal' />
+      <column caption='X8Q MH Diabetes' datatype='string' name='[X8Q_MH_Diabetes]' role='dimension' type='nominal' />
+      <column caption='X8Q Mh Hbp' datatype='string' name='[X8Q_MH_HBP]' role='dimension' type='nominal' />
+      <column caption='X8Q MH HBldCholTrt' datatype='string' name='[X8Q_MH_HBldCholTrt]' role='dimension' type='nominal' />
+      <column caption='X8Q MH HBldChol' datatype='string' name='[X8Q_MH_HBldChol]' role='dimension' type='nominal' />
+      <column caption='X8Q MH HeartAttack' datatype='string' name='[X8Q_MH_HeartAttack]' role='dimension' type='nominal' />
+      <column caption='X8Q MH Stroke' datatype='string' name='[X8Q_MH_Stroke]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='data' datatype='table' name='[__tableau_internal_object_id__].[data_707929A5DDEB4B7787D6CE6D375F69F0]' role='measure' type='quantitative' />
+      <column caption='Action' datatype='string' name='[action]' role='dimension' type='nominal' />
+      <column caption='Control Tree' datatype='string' name='[controlTree]' role='dimension' type='nominal' />
+      <column caption='Exist New Grp' datatype='string' name='[existNewGrp]' role='dimension' type='nominal' />
+      <column caption='F Score Cat' datatype='string' name='[fScoreCat]' role='dimension' type='nominal' />
+      <column caption='F Score Type' datatype='integer' name='[fScoreType]' role='measure' type='quantitative' />
+      <column caption='F Score' datatype='integer' name='[fScore]' role='measure' type='quantitative' />
+      <column caption='f BMI' datatype='real' name='[f_BMI]' role='measure' type='quantitative' />
+      <column caption='Health Risk' datatype='string' name='[healthRisk]' role='dimension' type='nominal' />
+      <column caption='Medical Hist Chol Sug Bp' datatype='string' name='[medicalHistCholSugBp]' role='dimension' type='nominal' />
+      <column caption='Revisit' datatype='boolean' name='[revisit]' role='dimension' type='nominal' />
+      <column caption='Scn Zone' datatype='string' name='[scnZone]' role='dimension' type='nominal' />
+      <column caption='Screening' datatype='string' name='[screening]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[data_707929A5DDEB4B7787D6CE6D375F69F0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Control]' derivation='Count' name='[cnt:Control:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[healthRisk]' derivation='Count' name='[cnt:healthRisk:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[healthRisk]' derivation='CountD' name='[ctd:healthRisk:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Control]' derivation='None' name='[none:Control:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Habits]' derivation='None' name='[none:Habits:nk]' pivot='key' type='nominal' />
+      <column-instance column='[healthRisk]' derivation='None' name='[none:healthRisk:nk]' pivot='key' type='nominal' />
+      <column-instance column='[healthRisk]' derivation='Count' name='[pcto:cnt:healthRisk:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0g8df5w131c6pm18kk1h712okab8].[none:Habits:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[NRIC]' derivation='Sum' name='[sum:NRIC:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[pcto:cnt:healthRisk:qk:1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[cnt:Control:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[none:Control:nk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[sum:NRIC:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[cnt:healthRisk:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[ctd:healthRisk:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0g8df5w131c6pm18kk1h712okab8].[none:healthRisk:nk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data' id='data_707929A5DDEB4B7787D6CE6D375F69F0'>
+            <properties context=''>
+              <relation connection='excel-direct.11wx4iu1wz81jw1h0ij9k0m1qo8a' name='data' table='[data$]' type='table'>
+                <columns gridOrigin='A1:BT5192:no:A1:BT5192:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Zone' ordinal='0' />
+                  <column datatype='integer' name='Measurement.Att.Date' ordinal='1' />
+                  <column datatype='string' name='Gender.Full.Text' ordinal='2' />
+                  <column datatype='string' name='Race.Full.Text' ordinal='3' />
+                  <column datatype='string' name='StaffEducation' ordinal='4' />
+                  <column datatype='real' name='M_Weight' ordinal='5' />
+                  <column datatype='real' name='M_Height' ordinal='6' />
+                  <column datatype='real' name='M_Waist' ordinal='7' />
+                  <column datatype='integer' name='M_Systolic_1st' ordinal='8' />
+                  <column datatype='integer' name='M_Diastolic_1st' ordinal='9' />
+                  <column datatype='real' name='L_Chol_f' ordinal='10' />
+                  <column datatype='real' name='L_Trig_f' ordinal='11' />
+                  <column datatype='real' name='L_HDL_f' ordinal='12' />
+                  <column datatype='real' name='L_LDL_f' ordinal='13' />
+                  <column datatype='real' name='L_Glucose_f' ordinal='14' />
+                  <column datatype='real' name='f_BMI' ordinal='15' />
+                  <column datatype='string' name='X8Q_MH_HeartAttack' ordinal='16' />
+                  <column datatype='string' name='X8Q_MH_Stroke' ordinal='17' />
+                  <column datatype='string' name='X8Q_MH_Diabetes' ordinal='18' />
+                  <column datatype='string' name='X8Q_MH_HBP' ordinal='19' />
+                  <column datatype='string' name='X8Q_MH_HBldChol' ordinal='20' />
+                  <column datatype='string' name='X8Q_MH_DiabetesTrt' ordinal='21' />
+                  <column datatype='string' name='X8Q_MH_HBldCholTrt' ordinal='22' />
+                  <column datatype='string' name='X8Q_FH_DadBroCHD' ordinal='23' />
+                  <column datatype='string' name='X8Q_FH_MomSisCHD' ordinal='24' />
+                  <column datatype='string' name='X8Q_LS_Smoking' ordinal='25' />
+                  <column datatype='string' name='X8Q_LS_Exercise' ordinal='26' />
+                  <column datatype='string' name='X8Q_LS_Stress' ordinal='27' />
+                  <column datatype='string' name='X8Q_GN_Health' ordinal='28' />
+                  <column datatype='string' name='X8Q_LS_FruitsVeg' ordinal='29' />
+                  <column datatype='string' name='X8Q_MH_DiabetesFoot' ordinal='30' />
+                  <column datatype='string' name='X8Q_Living' ordinal='31' />
+                  <column datatype='string' name='PreferredLanguage' ordinal='32' />
+                  <column datatype='string' name='OccupationType' ordinal='33' />
+                  <column datatype='string' name='Healthy' ordinal='34' />
+                  <column datatype='string' name='Habits' ordinal='35' />
+                  <column datatype='string' name='Diabetes' ordinal='36' />
+                  <column datatype='string' name='BloodPressure' ordinal='37' />
+                  <column datatype='string' name='Cholesterol' ordinal='38' />
+                  <column datatype='string' name='Combine' ordinal='39' />
+                  <column datatype='string' name='Overweight' ordinal='40' />
+                  <column datatype='string' name='New' ordinal='41' />
+                  <column datatype='string' name='UnhealthyCat' ordinal='42' />
+                  <column datatype='string' name='Control' ordinal='43' />
+                  <column datatype='string' name='ControlGrp' ordinal='44' />
+                  <column datatype='string' name='existNewGrp' ordinal='45' />
+                  <column datatype='string' name='controlTree' ordinal='46' />
+                  <column datatype='string' name='AgeGrp' ordinal='47' />
+                  <column datatype='string' name='BMIGrp' ordinal='48' />
+                  <column datatype='string' name='Fasting' ordinal='49' />
+                  <column datatype='string' name='SugarHigh' ordinal='50' />
+                  <column datatype='string' name='BPHigh' ordinal='51' />
+                  <column datatype='string' name='HealthState' ordinal='52' />
+                  <column datatype='string' name='medicalHistCholSugBp' ordinal='53' />
+                  <column datatype='string' name='screening' ordinal='54' />
+                  <column datatype='string' name='action' ordinal='55' />
+                  <column datatype='string' name='scnZone' ordinal='56' />
+                  <column datatype='string' name='NurseAction' ordinal='57' />
+                  <column datatype='string' name='DrOutcome' ordinal='58' />
+                  <column datatype='boolean' name='revisit' ordinal='59' />
+                  <column datatype='string' name='DHLDescNHGP' ordinal='60' />
+                  <column datatype='string' name='FollowUpPolyClinic' ordinal='61' />
+                  <column datatype='string' name='DiagnosisAtPoly' ordinal='62' />
+                  <column datatype='string' name='DateOfPolyVisit' ordinal='63' />
+                  <column datatype='string' name='FollowupType' ordinal='64' />
+                  <column datatype='string' name='VisitsNHGP' ordinal='65' />
+                  <column datatype='real' name='X10YrRisk' ordinal='66' />
+                  <column datatype='integer' name='fScoreType' ordinal='67' />
+                  <column datatype='integer' name='fScore' ordinal='68' />
+                  <column datatype='string' name='fScoreCat' ordinal='69' />
+                  <column datatype='string' name='healthRisk' ordinal='70' />
+                  <column datatype='integer' name='NRIC' ordinal='71' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Health Risk vs Control'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Newly Diagnosed vs Existing Conditions</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data (data)' name='federated.0g8df5w131c6pm18kk1h712okab8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g8df5w131c6pm18kk1h712okab8'>
+            <column caption='Control Grp' datatype='string' name='[ControlGrp]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unhealthy Cat (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[UnhealthyCat]' new-bin='true'>
+                <bin default-name='true' value='&quot;Unhealthy, Exisiting HighBP, Unhealthy, Exisiting HighBP &amp; HighSugar, Unhealthy, Exisiting HighCho and 4 more&quot;'>
+                  <value>&quot;Unhealthy, Exisiting HighBP&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighBP &amp; HighSugar&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighCho&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighCho &amp; HighBP&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighCho &amp; HighSugar&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighCho, HighBP &amp; HighSugar&quot;</value>
+                  <value>&quot;Unhealthy, Exisiting HighSugar&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Unhealthy Cat' datatype='string' name='[UnhealthyCat]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='data' datatype='integer' name='[__tableau_internal_object_id__].[data_707929A5DDEB4B7787D6CE6D375F69F0]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[data_707929A5DDEB4B7787D6CE6D375F69F0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='data' datatype='table' name='[__tableau_internal_object_id__].[data_707929A5DDEB4B7787D6CE6D375F69F0]' role='measure' type='quantitative' />
+            <column-instance column='[ControlGrp]' derivation='None' name='[none:ControlGrp:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0g8df5w131c6pm18kk1h712okab8].[Unhealthy Cat (group)]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Unhealthy Cat (group)]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New Cho &amp; HighSugar &amp; HighBP&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighBP&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighCho&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighCho &amp; HighBP&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighCho &amp; HighSugar&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighSugar&quot;' />
+                <groupfilter function='member' level='[Unhealthy Cat (group)]' member='&quot;Unhealthy, w/o medicalHist, New HighSugar &amp; HighBP&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0g8df5w131c6pm18kk1h712okab8].[none:ControlGrp:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ControlGrp:nk]' />
+              <groupfilter function='member' level='[none:ControlGrp:nk]' member='&quot;Healthy&quot;' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0g8df5w131c6pm18kk1h712okab8].[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0g8df5w131c6pm18kk1h712okab8].[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0g8df5w131c6pm18kk1h712okab8].[Unhealthy Cat (group)] / [federated.0g8df5w131c6pm18kk1h712okab8].[none:ControlGrp:nk])</rows>
+        <cols>[federated.0g8df5w131c6pm18kk1h712okab8].[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]</cols>
+      </table>
+      <simple-id uuid='{2CF662F2-6ABD-4590-A3EB-8B6ABFEC3D2A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Health Risk vs Control'>
+      <cards>
+        <edge name='left'>
+          <strip size='169'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[Unhealthy Cat (group)]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[__tableau_internal_object_id__].[cnt:data_707929A5DDEB4B7787D6CE6D375F69F0:qk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[cnt:healthRisk:qk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[ctd:healthRisk:qk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:Cholesterol:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:Control:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:ControlGrp:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:Habits:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:UnhealthyCat:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:X8Q_LS_Exercise:nk]</field>
+            <field>[federated.0g8df5w131c6pm18kk1h712okab8].[none:controlTree:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A8033B47-A2E6-4001-A3AB-4B9DAA87D49F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='238' name='Health Risk vs Control' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAADuCAYAAAAwTtAhAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAWPElEQVR4nO3de9CtY/3H8bdSUQ4lpZRICCXGeZxLQ0VORXIcEs3UoDHDqEYSodSYIsQ0
+      I8kwSqMkJhWNY3soOSShEyI6iCRp98evz1y/de997/Uc1t7refb3/fpnz37Wute6133fa32v
+      73V9r+teYu7cuXORJJXzvHHvgCRpPAwAklSUAUCSijIASFJRBgBJKsoAIElFGQAkqSgDgCQV
+      ZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJRRkAJKkoA4AkFWUAkKSiDACSVJQBQJKKMgBI
+      UlEGAEkqygAgSUUZACSpKAOAJBVlAJCkogwAklSUAUCSijIASFJRBgBJKsoAIElFGQAkqSgD
+      gCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJRRkAJKkoA4AkFWUAkKSiDACSVJQBQJKK
+      MgBIUlEGAEkqygAgSUUZACSpKAOAJBVlAJCkogwAklSUAUCSijIASFJRBgBJKsoAIElFGQAk
+      qaglp/sCc+bMGcV+SJIWMTMASSpqiblz584d905IkhY9MwBJKsoAIElFGQAkqSgDgCQVZQCQ
+      pKKmPQ9gtvnpT38KwCabbDLmPVmwO++8E4BVV10VgGWWWWZS2//qV78C4JWvfCUAL33pS0e4
+      d7PHf/7zHwBS7Pb85z9/Rrzev//974Htl1hiiWntlzQVZgCSVNTYMoDjjjsOgE9+8pNAf0vq
+      /PPPB2DzzTcH4I1vfOO03vc73/kOMPMzgOuvvx6A5ZZbDmgZwJ///GcA/vSnPwH9x6Ob6cy0
+      DOCaa64B4Pvf/z7Qn+GsssoqABx88MFTep9rr70WgN/97ncAHHjggVN6nYm+3j333AO0zOtl
+      L3vZfF/n9NNPB+Cd73wnAG9605umtV9aPPz9738H4EUvehEAL3zhCxfq+5kBSFJRY8sA0oc6
+      bCKyE5UHPfLIIwDcdtttwPQzonHbcccdAXj729++UF5/u+22W6Svd8sttwCw2WabAf0ZwFFH
+      HQXY91/dj370IwB+8IMfALD88ssD8I9//AOApZdeGoAPfvCDAKywwgojfX8zAEkqatZWAZ1z
+      zjkAvP71rwfgpptuAuCf//wnADvssAMwb4vtueeeA+Cqq64C4Oabbx7YLi3SbbfddmC7Z555
+      BoCvf/3rANx1110ALLvssgDst99+AKyxxhoD233ve98D2qqpTz75JACvec1rANh3330BWHHF
+      FRf4edOnf8UVVwy8zh/+8IeB5330ox8d+H+qib773e8C8PDDDwMtc0jf+oMPPgjAddddN7Bf
+      XTfccAPQxmzS0l3Y/va3vwFwwQUXAK1FlL7Sv/zlLwBcfPHFABx22GEA3HvvvUDLnLbeeuuB
+      183n+clPfjLwPmuuuSbQjkP6YvteL9fF7bffDsD9998PtBbcaqutBsBee+0FwOWXXw60sa2V
+      VloJgKuvvhpomcEdd9wBwEMPPQTAWmutBbTzlvOQTDnb33jjjQA8++yzQBtLyfttsMEGaHzS
+      8s/5/fjHPw7Ai1/84oHn/fa3vwXgec9bOG11MwBJKmrWZgBpiaUlfeSRRwKtJXTKKacArYWW
+      llJa8mkZpcWczODUU08d2C6R97LLLgNai/PTn/70wH589atfBeCEE04AYMkl/+/QJkM4/PDD
+      AVhqqaWAVv1y6aWXAvChD31ogZ83LbbUoScD2X333Qeel/eNZAh77rknAK961asAOPfccwG4
+      ++67AVhnnXWA1iJ5/PHHAXj5y18+8HppKe+///4L3N+Jeuqpp4BW3dSV452+0de+9rVAOx97
+      77030DKDrbbaCmgt6FRV5PNEMoYrr7wSaNdPzlcyttTrJwPoe73ddtsNaNdXztcb3vCGge0j
+      GcS//vWvgb+nuiuv/973vhdo5+28884D2nl785vfDMCPf/xjoGV8RxxxBNCOW66zZI4ar3z/
+      jz32WGDeln9kHlBXMsJc97lukkkecMABA//v284MQJKKmrUZQCLmzjvvPN/HU33x9NNPA63O
+      fNh2qZfPmECenxZh5i3k7+uvvz4AP/zhD4HW95u+2m6fc0b3t9hiCwC+/OUvL/iD/s8LXvAC
+      oM0LSMt4WH1/xjTSBxzZv7Q0k+lsueWWQOtDznFKizkt1pVXXnlC+z1M3ict1651110XaC3s
+      7M/JJ58MtL73l7zkJQBsuOGGE3rfnN8c127ddc7PROX6yvbJJKY6/+Id73gH0H/eHnvssYG/
+      Z97Ihz/8YWDe6qNkAhqvZLz5/eheH8kw00MR+d7ne3rWWWcBLQPOPJKf//znAJx99tlAm2+V
+      npHudmYAklTU2DOA9L13+667j49LInEyiYsuumi+z0sfdlrKkSqgtNDSMsuYxLg/X1f60E87
+      7TQAdtppJwBuvfVWADbddNORvl/q/yc6DyDXya677grAmWeeCbQxn4l69atfDbSM4fjjjwfa
+      GMM222wz8PhM0TdvIH37ffMONDOkhZ+MtStjAxlbTIZ+6KGHAu385zrtziBPj0Sq+VJFlMy9
+      u93YAkBSmvvuuw9oqX5XHn/Xu961aHasIz846SrIfvQFrKTaGXxNSpYfmLxOJEWbrIU1QS4p
+      abp4fvnLXwItABxyyCEL5X0nqlvumAs55bEpx52odCllSYZ88S655BKgpeprr732pF43g/WL
+      Sq6rXHf5omtmSYBOuXFXijXia1/72sD/09Ac1gWbx/P8vq5bu4AkqaixZQCrr7460KbOZ2JS
+      ukaynHEi1yte8YpFvYtAS7lSjpVB3gzu5vFHH30UaIO8KQdMi7rb8s/nm6wsMpbFyBaWdIGk
+      ZZ3z0tfFkFQ1z1tYi8+l5Z+yyH322QdoXUC/+MUvAFhvvfUW+DppGWVQLfubln7+7ZZ7DpOy
+      u5yfyWYOU5Wy029/+9sA7LHHHkDLmJKJTnZwW6OVYoOcl0zMTJfkMOk6euCBBxb4vG5XU35/
+      utuZAUhSUWPLAFLmlrKkY445BmiLHWViw0EHHQTM2+c+bBGtPN593lQX30rZVJagyFIS6fNP
+      RM/+JsNJueHnP/95oA36JqPp68vv289MzMr2J510EtBaFpkANFF975O+9QsvvBAYPgaT45Il
+      NFJOOkwGyTNo1ZXMK330KRvNBJq04HPczzjjDKBNwOqTQf1MrMp1l4lfeXyyY08bbbQR0Aan
+      U96aCYtZCmLUi8DtsssuQFvuPBN9ktl0J/RpvLbffnuglTGnfLc7Iaw7lpQlRVKMkvOelv4T
+      TzwBtB6G973vfUC7rrvbmQFIUlFLzJ0h6y2nfDItr/R191XbjFsmdKQl1zeVO/L58ry02Ee1
+      H9FXXjZZaTGceOKJABx99NHAvJ/z97//PdBaMsnkFtbiVaOWyz/nJy2utJin21LPWEOq3sZ1
+      PX/xi18EWlnvsAxJC1euu2TAWWIl113GEtN3n8UPk/knE84ij8mUU/aZJWI23njjgfftbjc7
+      vqWSpJGbMRmAZobU/WdxsdST9y2dkWWq08c9qiUiNDm5dWoymbTwMy8gY1Hd5cI1M+RnOPMD
+      sqTIsJ6FVElmzDQ9J92qw77tzAAkqSgzAA1IvXhaHrnBjbcunNkydvHrX/8aaJlAbpiUlqH0
+      /5kBSFJRZgCSVJQZgCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJRc3MpTYnIDMfM40h
+      d6Karqxts8kmm4zk9TRoph/fxx57DGh3VMpM2snKeuyZgbuw7pA20436e5pVavM6zlCfHjMA
+      SSpqbBnAZz/7WQA+8IEPAP13LMo9TnMP2M033xyAa6+9Fmj3Xj3wwANHsl+5o9JkW6j5PE8+
+      +STQWijPPvss0FqAuUPPKqusMt/t0/LMevpp4ay//voA7LDDDsDU1/3P8cw9SDfbbLP5Pu+O
+      O+4A2j123//+90/p/bqmenwXlaynnvscdDOAe+65B2gt+757JHcznZmWAfRdr1077rgj0L53
+      kzXq7+npp58OtDvE5c51ue9CVsXMPca1YGYAklTU2DKAiS5B1Pe87bbbboR7M33Zz6y33m0Z
+      3nfffQB885vfBODII4+c7/b5e/fOQFmfPy2qyd6rdqq69ySt7pZbbgFa5tSXAcx0w67XURn1
+      9/Soo44C5u37f+SRRwC47bbbADOAiTIDkKSiZm0V0L333gu0yL/11lsPPP7EE08AcOmllwKt
+      KmPppZcG2r01MwaRe/Q+99xzAFx11VUA3HzzzUC7o1L6RLfddttJ7W/u8PPwww9Parusy/+2
+      t70NgM985jPAossA+pxzzjlA6yO/6aabgHacMlbRbQFO9fimT/6CCy4AWrVO7nx10EEHAe14
+      5c5mV1xxBQCPPvrowOPvfve7Adhwww0n9Hlzz+Pbb78dgPvvvx9o19Nqq60GwF577TWw3Z13
+      3gm0e7Dm/KeFevDBBwPw4IMPAnDdddcBsO+++853P2644Qag9dn3jeGMWu5UleOfe9Tme5P7
+      D1x88cUAHHbYYcDw72k+T+6Jm/dZc801gXYc8v25/PLLgTYmkbGFnOeMaeROaJFMZ9idsqox
+      A5CkosaeASTi99XzpmXYlWqZxx9/fL6Pf+UrXwFgnXXWAWC//fYDWh3xKaecAsw7xvDMM88A
+      rXonLYe0XE899VSgtWRSrRNpCSUDSd//9ddfD8Aee+wx3/0dJlU5yy677JS2H7W07HIv4Ixd
+      5Hjm+OY4pcU62eOb10vGscsuuwCtKipVTd/61reAdp4zdvGe97wHaPc2zh2z8nqpIklLts9u
+      u+02sP8bbLAB0DKQtFC70hLdc889gVbNdu655wJw9913A+06zXnOdd2tjktLef/991/g/k5U
+      rte+sbblllsOgOWXXx5ox/Gyyy4DYO+99wZaZrDVVlsB7fvc9z3N+1555ZVAu35yfc+ZMwdo
+      39cc32QSuadtzkPO91133QXA7rvvPvB+Sy459p+6GckMQJKKGntYPP/884H+vrlkCBOdkZm+
+      3rQcdtppp4HH05Loa/Glj3jnnXee7+Op505mkufHhRdeOPD+abGkpTKsOuFnP/sZ0Or802LN
+      vXpH1fKbrmHHKVUlTz/9NADLLLPMhLbrHt+0oNMS3nTTTQeen/P7qU99CmgZwLrrrjvwvGQc
+      yVjyb1qmK6+88vw/6P9k/3P9pKU6rL4/YxrdeR9rrbXWwPsnk9xyyy0BuPHGG4F2nNJiTst3
+      2P5OVK7XvnkAyaBy3WZ/Tj75ZKCNjeR6neiYSs5vvvf5Pub4brHFFhN6nWyfTCWvM9PmXXQt
+      qnk/w5gBSFJRY88ADj/8cKB/JnD6GicqLarMdF3UPvKRjwCtBZw+41Q7fOELXwDghBNOmO/2
+      qWpIxF9xxRWB1lc+qpZf+tz7JIMZ91orOZ+p+snYTlcyjez3Aw88ALQWblqWqdr54x//CMy8
+      eQ7pQz/ttNOAluHceuutwLwZ0HR1r9dh0pe+6667AnDmmWcCbcxnovL9TMZw/PHHA22MYZtt
+      thl4fHEzU+b9mAFIUlFjzwBGLX21qb4Zt/RJph7+mmuuAdraJSussMLA81Pl0pcRTVf6SnN8
+      +vpa83iePy4ZM1hppZWAdny68vf0Zaflf+ihhwLzZk6pwpmqhZU5pO86+5v5DMkADjnkkIXy
+      vhOVluvVV18NtCqq1OFnDGaiMqaQtX1SXXbJJZcA7fyvvfbak9q/2WrYvJ+HHnoIaFVXWfso
+      348DDjhg4P/Rt50ZgCQVtdhlAKnuSAstdcbpW00LIxFwUUnffqoWRlWlkDGGfJ70ofZZffXV
+      gTYTN1UIqWp56qmngDbjNXXe45IZtqk2SbVEVuOMzLhNnX3GAroZ1l//+legjQFMVlpWOZ8T
+      bZlOVvrA07JOZtPXV5+xkjxvYVXBpOWf47zPPvsAbQwgq8eut956C3ydZMA5n9nfHM/82zfP
+      pyvXQ87LMJlZnvfN9Z/rI2NK4xpL7M77ye/ZWWedBbTvZTKwVAmeffbZABx33HFAy4j6tjMD
+      kKSixpYBpLqkO5N22POHyeuluiFrh3zpS18CWj1zxgqm+j5926XKJy2xRO6llloKaPcD6H7u
+      yR6PSLVA1qlPVVWftKhTb37ssccO/P03v/kN0DKmzFDtGnac8nj3eZM9vpmBmpm4J510EtAy
+      vbTUXve61wGtZZMxl9Rbp6WXjGmqNtpoI6BVvyTzyP501wIapu945HNkLGNYFUhmNmcNpZzf
+      Ye/7uc99DuifKZv3zfHN/IRcN7lesxbTGWecAbQZ0n1y3s477zygZWrJ3PJ493P3Ha+MmWWN
+      r1wnGYM74ogjgJaBf+Mb3wDadZ7jlfs4ZIb2sO/TdE103k/+ngw/10dk3kDWksp9LTJvpG+7
+      JebO9lGTScpiUVlyIOWY4y53nKrsfxbnmmzKmi9aUu10MSysiSfTlYCaCYJJkft+wDLhKF+E
+      UQ9qpysjrzuqJQfyQ3jiiScCcPTRRwPzTjxMV0a6yI455hhg8g2JccnPTya65fzmB32q38t0
+      ZcZMu57z+5Ouq+xfrqO3vOUtQCsGyGKL6erNYoZdWW4+E2dz3fdtNzuuEknSyC12g8BpUXzs
+      Yx8D2rKyaVFksah0EczWln9aTG9961uBqQ9WZWLUsMHjmSIt24lOXErXW/4dte4g83Sl7DNd
+      extvvDEwb8s/MpidWy3OlpZ/5Ps36uM401r8fSZa9p3PkwmOfVLUkeeny6tvu9l1tUiSRmax
+      ywDSovjEJz4BtAlN6VPN4kpp+c5WaQF3b7Ch2S2D1Ntvvz0Aa6yxxgKfn5vOa/GWIo2LLroI
+      aJlDWvpZfj43vkqxSX73+rYzA5Ckoha7DCAS4TKaLs0GKefT4m2yZd+pdksVT5aIWHXVVYFW
+      9pkbTnV7OPq2MwOQpKLKzQOQpNmuW9+f+QTDbnrf3c4MQJKKMgOQpKLMACSpKAOAJBVlAJCk
+      ogwAklSUAUCSijIASFJRBgBJKmraawHNmTNnFPshSVrEzAAkqShnAktSUWYAklSUAUCSijIA
+      SFJRBgBJKsoAIElFGQAkqSgDgCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJRRkAJKko
+      A4AkFWUAkKSiDACSVJQBQJKKMgBIUlEGAEkqygAgSUUZACSpKAOAJBVlAJCkogwAklSUAUCS
+      ijIASFJRBgBJKsoAIElFGQAkqSgDgCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJRRkA
+      JKkoA4AkFWUAkKSiDACSVJQBQJKKMgBIUlEGAEkqygAgSUUZACSpKAOAJBVlAJCkogwAklSU
+      AUCSijIASFJRBgBJKsoAIElFGQAkqSgDgCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrKACBJ
+      RRkAJKkoA4AkFWUAkKSiDACSVJQBQJKKMgBIUlEGAEkqygAgSUUZACSpKAOAJBVlAJCkogwA
+      klSUAUCSijIASFJRBgBJKsoAIElFGQAkqSgDgCQVZQCQpKIMAJJUlAFAkooyAEhSUQYASSrK
+      ACBJRRkAJKkoA4AkFWUAkKSiDACSVJQBQJKKMgBIUlEGAEkqygAgSUUZACSpKAOAJBVlAJCk
+      ogwAklSUAUCSijIASFJRBgBJKsoAIElF/RdNctKi+7509QAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
